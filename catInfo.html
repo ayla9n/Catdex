@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Catdex</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <nav class="navbar">
+                <a href="/index.html">
+                    <button class="btns"><i class="fa-solid fa-paw"></i>Home</button>
+                </a>
+                <h1 class="title">Catdex</h1>
+
+                <div class="searchBar">
+                    <input list="breedList" id="breedInput" placeholder="Enter cat breed">
+                    <datalist id="breedList"></datalist>
+                    <button class="btns" id="searchButton">Search</button>
+
+                </div>
+            </nav>
+
+            <div class="centerPg">
+                <div id="infoContainer">
+                    <h2 id="catName"></h2>
+                    <h2><i class="fa-solid fa-cat"></i></h2>
+                    <img id="catImage" alt="meow" />
+                    <p id="catDescription"></p>
+                    <p id="catOrigin"></p>
+                    <p id="catTemperament"></p>
+                    <p id="catLifeSpan"></p>
+                    <p id="wikiUrl"></p>
+                </div>
+            </div>
+            
+
+        <script type ="module" src="catInfo.js"></script>
+    </body>
+
+</html>

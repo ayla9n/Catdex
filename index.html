@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Catdex</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class = "container">
+            <nav class="navbar">
+                <button class="btns"><i class="fa-solid fa-paw"></i>Home</button>
+                <h1 class="title">Catdex</h1>
+
+                <div class="searchBar">
+                    <input list="breedList" id="breedInput" placeholder="Enter cat breed">
+                    <datalist id="breedList"></datalist>
+                    <button class="btns" id="searchButton">Search</button>
+
+                </div>
+            </nav>
+
+            <div>
+                <button id="randomBtn" class="btns"><i class="fa-solid fa-cat"></i>Randomize Cats</button>
+            </div>
+
+            <div id="dexContainer"></div>
+
+        </div>
+        <script type ="module" src="homepage.js"></script>
+    </body>
+
+</html>
