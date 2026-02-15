@@ -1,12 +1,7 @@
 const API_KEY = import.meta.env.VITE_CAT_API_KEY;
 
-//const API_KEY = "live_emuDArEHr3IIBc79w6iA5osDOTz9N6LGwCmLjZ9ZrInTAboFqo5OqHz8m2CPunOs"
-
 let breeds = [];
 
-// function homepage() {
-//   window.location.href = "index.html";
-// }
 
 const params = new URLSearchParams(window.location.search);
 const breedId = params.get("id");

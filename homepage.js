@@ -1,9 +1,5 @@
 const API_KEY = import.meta.env.VITE_CAT_API_KEY;
 
-//const API_KEY = "live_emuDArEHr3IIBc79w6iA5osDOTz9N6LGwCmLjZ9ZrInTAboFqo5OqHz8m2CPunOs"
-console.log("API key:", import.meta.env.VITE_CAT_API_KEY);
-
-
 let breeds = [];
 
 //fetch breeds 
