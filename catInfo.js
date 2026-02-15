@@ -17,6 +17,7 @@ async function fetchBreeds() {
   fetchBreedInfo(breedId);
 }
 
+//dropdown cat breed datalist
 function breedDropdown() {
     const datalist = document.getElementById("breedList");
     datalist.innerHTML = "";
@@ -28,6 +29,7 @@ function breedDropdown() {
 
   });
 }
+
 
 async function fetchBreedInfo(breedId) {
   if (!breedId) return;
@@ -47,7 +49,7 @@ async function fetchBreedInfo(breedId) {
   displayBreedInfo(breed, imageUrl);
 }
 
-//how to bold and underline 
+
 function displayBreedInfo(breed, imageUrl) {
   document.getElementById("catName").textContent = breed.name;
 

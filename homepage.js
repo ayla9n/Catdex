@@ -76,24 +76,6 @@ function createCard(breed, imageUrl) {
 }
 
 
-
-async function searchBreed() {
-  const searchValue = document
-    .getElementById("breedInput")
-    .value
-    .toLowerCase();
-
-  const foundBreed = breeds.find(breed =>
-    breed.name.toLowerCase().includes(searchValue)
-  );
-
-  if (foundBreed) {
-    window.location.href = `catInfo.html?id=${foundBreed.id}`;
-  } else {
-    alert("No breed found with that name");
-  }
-}
-
 document.getElementById("randomBtn").addEventListener("click", () => {
   randomDex(8);
 });

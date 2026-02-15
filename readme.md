@@ -8,7 +8,7 @@
 **2. Install all dependencies using**
 > npm install
 
-**3. Through the terminal, copy .env.example to .env using**
+**3. Through the terminal, copy .env.example file to a new .env using**
 > cp .env.example .env  #for macOS & Linux <br/>
 > copy .env.example .env #for windows
 
@@ -18,4 +18,4 @@
 > npm run dev
 
 ### Links: 
-[Cat API used in project ](https://thecatapi.com/)
+[The Cat API  ](https://thecatapi.com/)
