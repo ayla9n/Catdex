@@ -1,7 +1,7 @@
-# Catdex 
+# Catdex 🐈
 **Interactive web application that allows you to search and discover different breeds of cats** 
 
-## web app setup
+### web app setup
 
 **1. Clone repository or download repository files** 
 
@@ -9,7 +9,7 @@
 > npm install
 
 **3. Through the terminal, copy .env.example to .env using**
-> cp .env.example .env  #for macOS & Linux
+> cp .env.example .env  #for macOS & Linux <br/>
 > copy .env.example .env #for windows
 
 **4. Add your CatApi key to the .env file**
